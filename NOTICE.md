@@ -48,4 +48,20 @@ By accessing, using, or redistributing the contents of this repository, you ackn
 
 ---
 
+## Notice on Excluded Files via `.gitattributes`
+
+Certain files and directories are intentionally excluded from public release archives using `.gitattributes` `export-ignore` directives.  
+
+These exclusions are designed to protect CogniPath's proprietary implementations and pending patent claims.  
+
+### Excluded Directories:
+- `core/private/`
+- `legacy_compat/private/`
+- `models/private/`
+- `config/private/`
+- `internal_docs/`
+- `drafts/`
+
+Public releases contain **only non-sensitive scaffolding** sufficient to demonstrate functionality without disclosing protected intellectual property. 
+
 © 2025 CogniPath Project. All Rights Reserved.
