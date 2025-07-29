@@ -1,10 +1,10 @@
-# CogniPath  
+# CogniPath™  
 **Intent-Driven Networking Powered by Distributed Language Model Agents**  
 
 ---
 
 ## Overview  
-CogniPath is a next-generation intent-driven packet networking system that leverages distributed language model (LM) agents to dynamically determine packet routing paths in real time. Instead of static configuration or legacy routing convergence delays, CogniPath embeds **intent** directly in packet metadata, enabling an intelligent, adaptive network that reacts instantly to topology changes, failures, and evolving policy requirements.  
+CogniPath™ is a next-generation intent-driven packet networking system that leverages distributed language model (LM) agents to dynamically determine packet routing paths in real time. Instead of static configuration or legacy routing convergence delays, CogniPath embeds **intent** directly in packet metadata, enabling an intelligent, adaptive network that reacts instantly to topology changes, failures, and evolving policy requirements.  
 
 Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath dynamically adapts to the **actual intent** of the packet using on-demand inference, enabling:  
 - Adaptive routing based on live topology and telemetry.  
@@ -43,7 +43,7 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 - Dynamically adapts switching paths based on LM-driven network intent and live health telemetry.  
 
 ### **5️⃣ Wireless-Ready Adaptive Framework**  
-- CogniPath’s architecture is designed for **wireline and wireless environments**, including LoRaMesh, Wi‑Fi 6, and 5G.  
+- CogniPath™’s architecture is designed for **wireline and wireless environments**, including LoRaMesh, Wi‑Fi 6, and 5G.  
 - Intent‑driven routing seamlessly adapts to variable wireless link quality and mobility conditions.  
 - Wireless capability is enabled through the same LM‑driven control plane, ensuring **link resilience and real‑time rerouting** without protocol‑specific dependencies.  
 
@@ -110,7 +110,7 @@ CogniPath/
 ---
 
 ## Intellectual Property & Licensing  
-This public repository contains a **limited, public-safe subset** of CogniPath’s architecture.  
+This public repository contains a **limited, public-safe subset** of CogniPath™’s architecture.  
 Core intellectual property (LM internals, consensus algorithms, advanced prompt structures, and production routing logic) is maintained in the **private `CogniPath-core` repository**.  
 
 Patent protection is in process via **USPTO Provisional Patent Application (PPA)** covering:  
@@ -144,7 +144,7 @@ python3 main.py
 ---
 
 ## Legacy Protocol Compatibility  
-CogniPath supports **interoperation with existing networks** by translating LM-decided paths to formats understood by:  
+CogniPath™ supports **interoperation with existing networks** by translating LM-decided paths to formats understood by:  
 - OSPF  
 - BGP  
 - EIGRP  
