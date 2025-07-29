@@ -1,0 +1,45 @@
+# CogniPath Proprietary License Agreement
+
+Copyright (c) 2025 Keenan Williams  
+All Rights Reserved
+
+---
+
+## 1. Grant of Rights
+This repository is made publicly viewable on GitHub **for informational and demonstration purposes only**.  
+No rights are granted to copy, modify, distribute, sublicense, or use the software in any production or commercial environment without express written permission from the copyright holder.
+
+---
+
+## 2. Restrictions
+- **No Commercial Use**: The software may not be used for any commercial purpose without a signed agreement.  
+- **No Modification or Redistribution**: Modification, fork, or redistribution of this repository or its contents is prohibited without written consent.  
+- **No Derivative Works**: You may not create derivative works of the code, documentation, or related artifacts without permission.
+
+---
+
+## 3. Intellectual Property & Patent Notice
+This software contains **proprietary concepts, methods, and algorithms** that are the subject of a pending U.S. Provisional Patent Application.  
+Any attempt to implement, reproduce, or use these concepts without authorization may constitute infringement of intellectual property rights.
+
+---
+
+## 4. Liability Disclaimer
+The software is provided **“AS IS”** without warranty of any kind.  
+The authors and copyright holders disclaim all liability for damages arising from the use, misuse, or inability to use the software.
+
+---
+
+## 5. Governing Law
+This license shall be governed by and interpreted in accordance with the laws of the United States and the State of California, without regard to its conflict of law provisions.
+
+---
+
+## 6. Contact for Licensing
+For licensing inquiries or special permissions, contact:  
+**Email**: telesis001@icloud.com  
+**GitHub**: www.https://github.com/keewillidevnet
+
+---
+
+**By accessing, cloning, or viewing this repository, you acknowledge that you have read, understood, and agree to the terms above.**
