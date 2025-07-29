@@ -49,28 +49,34 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 ```
 CogniPath/
 │
+├── config/                # Configuration files
+│   └── lm_roles.yaml      # Defines LM roles: CogniCore, CogniEdge, CogniLite
+│
 ├── core/                  # Public-safe core architecture
-│   ├── agent.py           # LM orchestration layer (public interface only)
-│   ├── node.py            # Node logic (public-safe abstraction)
-│   ├── packet.py          # Packet structure w/ intent, token handling
-│   ├── tokenlib.py        # Public-safe token validation/rate limiting
-│   └── utils.py
+│   ├── README.md          # Core overview (public-safe)
+│   ├── __init__.py        # Package initialization
+│   ├── agent.py           # LM orchestration layer (sanitized)
+│   ├── node.py            # Node logic abstraction (sanitized)
+│   ├── packet.py          # Packet structure & public-safe processing
+│   ├── tokenlib.py        # Public-safe token validation
+│   └── utils.py           # Utility functions
 │
-├── config/
-│   └── lm_roles.yaml      # Roles for CogniCore, CogniEdge, CogniLite
-│
-├── legacy_compat/         # Legacy protocol stubs (no sensitive LM logic)
-│   ├── bgp/parser.py
-│   ├── eigrp/parser.py
-│   ├── ospf/parser.py
-│   └── README.md
-│
-├── docs/
+├── docs/                  # Documentation
 │   └── README.md          # High-level technical overview
 │
-├── logs/
-│   ├── agent_audit.log
-│   └── lm_decisions.log
+├── legacy_compat/         # Legacy routing protocol stubs (no LM logic)
+│   ├── bgp/
+│   │   └── parser.py      # BGP compatibility stub
+│   ├── eigrp/
+│   │   └── parser.py      # EIGRP compatibility stub
+│   ├── ospf/
+│   │   └── parser.py      # OSPF compatibility stub
+│   └── README.md          # Legacy compatibility overview
+│
+├── logs/                  # Logs & auditing (public-safe)
+│   ├── README.md          # Logging overview
+│   ├── agent_audit.log    # LM agent audit trail (public scrubbed)
+│   └── lm_decisions.log   # LM decision logs (public scrubbed)
 │
 ├── tests/                 # Public-safe test suite
 │   ├── README.md          # Overview of testing framework
