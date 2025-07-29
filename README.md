@@ -64,7 +64,7 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 CogniPath/
 │
 ├── config/                # Configuration files
-│   └── lm_roles.yaml      # Defines LM roles: CogniCore, CogniEdge, CogniLite
+│   └── lm_roles.yaml      # Defines LM roles: CogniCore™, CogniEdge™, CogniLite™
 │
 ├── core/                  # Public-safe core architecture
 │   ├── README.md          # Core overview (public-safe)
