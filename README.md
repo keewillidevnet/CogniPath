@@ -11,6 +11,10 @@ Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath dynamically a
 - Real-time rerouting around failures or degraded links.  
 - Compatibility with legacy protocols via a protocol-agnostic interface.  
 
+## Release Information
+**Version:** v1.0.0 (Initial Public Release — IP-Safe Edition)  
+See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag/v1.0.0) for details.
+
 ---
 
 ## Key Innovations  
