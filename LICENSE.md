@@ -37,8 +37,8 @@ This license shall be governed by and interpreted in accordance with the laws of
 
 ## 6. Contact for Licensing
 For licensing inquiries or special permissions, contact:  
-**Email**: [telesis001@icloud.com]  
-**GitHub**: [www.https://github.com/keewillidevnet]
+**Email**: telesis001@icloud.com  
+**GitHub**: www.https://github.com/keewillidevnet
 
 ---
 
