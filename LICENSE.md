@@ -1,6 +1,6 @@
 # CogniPath Proprietary License Agreement
 
-Copyright (c) 2025 Kevin Watson and CogniPath Contributors.  
+Copyright (c) 2025 Keenan Williams.  
 All Rights Reserved.
 
 ---
