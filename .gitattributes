@@ -1,0 +1,23 @@
+# =========================
+# CogniPath .gitattributes
+# =========================
+
+# Exclude private IP-sensitive directories from release tarballs / zips
+core/private export-ignore
+legacy_compat/private export-ignore
+models/private export-ignore
+config/private export-ignore
+internal_docs export-ignore
+drafts export-ignore
+
+# Treat large model binaries as binary to avoid CRLF changes
+*.pt binary
+*.bin binary
+*.onnx binary
+*.dylib binary
+
+# Force LF for Python files
+*.py text eol=lf
+
+# Keep docs clean for contributors
+docs/* linguist-documentation=true
