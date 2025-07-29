@@ -1,0 +1,10 @@
+# lm_roles.yaml - Public-safe LM roles for CogniPath
+# Internal role behavior logic is in CogniPath-core
+
+roles:
+  CogniCore:
+    description: "Large-scale network orchestration LM"
+  CogniEdge:
+    description: "Mid-tier regional routing LM"
+  CogniLite:
+    description: "Lightweight edge/tiny device LM"

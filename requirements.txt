@@ -1,0 +1,2 @@
+# Public-safe dependencies
+pyyaml>=6.0
