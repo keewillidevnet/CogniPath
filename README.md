@@ -11,8 +11,10 @@ Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath dynamically a
 - Real-time rerouting around failures or degraded links.  
 - Compatibility with legacy protocols via a protocol-agnostic interface.  
 
+---
+
 ## Release Information
-**Version:** v0.1.0 Initial Public Pre-release (Public Architecture Preview)
+**Version:** v0.1.0 Initial Public Pre-release (Public Architecture Preview)  
 
 See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag/v0.1.0-public-preview) for details.
 
@@ -35,6 +37,11 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 - Routing decisions are **triggered dynamically** by packets rather than static policies.  
 - Enables continuous optimization as topology evolves.  
 
+### **4️⃣ Adaptive Switching (Phase 4 Feature)**  
+- Next‑generation replacement for spanning tree.  
+- Keeps all links active while preventing loops in real time.  
+- Dynamically adapts switching paths based on LM-driven network intent and live health telemetry.  
+
 ---
 
 ## Suggested Augmentations (Included in Roadmap)  
@@ -42,6 +49,7 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 - **LM Prompt Adaptation:** Mutates LM inputs dynamically (e.g., excludes failed nodes) based on telemetry.  
 - **LM Response Auditability:** Logs LM decisions in signed, traceable formats (`logs/lm_decisions.log`).  
 - **Protocol-Agnostic Compatibility Layer:** Translates LM-generated paths to legacy protocol equivalents (e.g., OSPF/BGP route injection).  
+- **Adaptive Switching:** Introduces LM-driven loop prevention and multi-path utilization for switching fabrics.  
 
 ---
 
@@ -104,6 +112,7 @@ Patent protection is in process via **USPTO Provisional Patent Application (PPA)
 - LM intent-embedded packet networking.  
 - Distributed LM consensus routing.  
 - Edge-triggered control plane inference.  
+- Adaptive Switching (loop-free multipath switching).  
 
 ---
 
@@ -159,4 +168,4 @@ See `NOTICE.md` for detailed IP and licensing terms.
 ## Community & Contact  
 We welcome constructive collaboration, issue reports, and discussions.  
 
-Contact: **Keenan Williams at telesis001@icloud.com**  
+Contact: **Keenan Williams at telesis001@icloud.com**
