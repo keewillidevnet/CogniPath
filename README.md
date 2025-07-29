@@ -72,17 +72,19 @@ CogniPath/
 │   ├── agent_audit.log
 │   └── lm_decisions.log
 │
-├── tests/
-│   ├── test_agent.py
-│   ├── test_packet.py
-│   └── __init__.py
+├── tests/                 # Public-safe test suite
+│   ├── README.md          # Overview of testing framework
+│   ├── __init__.py        # Package init for test discovery
+│   ├── test_agent.py      # Tests for agent abstraction layer
+│   └── test_packet.py     # Tests for packet structure
 │
-├── main.py                # Demo entry point
-├── requirements.txt
-├── .gitignore		   #
-├── LICENSE.md             # Proprietary License Agreement
-└── NOTICE.md              # IP notice
-└── README.md              # (This file)
+├── .gitattributes         # Public repo IP boundaries & file handling
+├── .gitignore             # Ignored files for public repo safety
+├── LICENSE.md             # Proprietary license for CogniPath
+├── NOTICE.md              # IP protection notice & patent language
+├── README.md              # This file (overview & documentation)
+├── main.py                # Demo entry point for public build
+└── requirements.txt       # Public-safe dependencies
 ```
 
 ---
