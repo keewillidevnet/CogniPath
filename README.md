@@ -4,9 +4,9 @@
 ---
 
 ## Overview  
-CogniPath™ is a next-generation intent-driven packet networking system that leverages distributed language model (LM) agents to dynamically determine packet routing paths in real time. Instead of static configuration or legacy routing convergence delays, CogniPath embeds **intent** directly in packet metadata, enabling an intelligent, adaptive network that reacts instantly to topology changes, failures, and evolving policy requirements.  
+CogniPath™ is a next-generation intent-driven packet networking system that leverages distributed language model (LM) agents to dynamically determine packet routing paths in real time. Instead of static configuration or legacy routing convergence delays, CogniPath™ embeds **intent** directly in packet metadata, enabling an intelligent, adaptive network that reacts instantly to topology changes, failures, and evolving policy requirements.  
 
-Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath dynamically adapts to the **actual intent** of the packet using on-demand inference, enabling:  
+Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath™ dynamically adapts to the **actual intent** of the packet using on-demand inference, enabling:  
 - Adaptive routing based on live topology and telemetry.  
 - Real-time rerouting around failures or degraded links.  
 - Compatibility with legacy protocols via a protocol-agnostic interface.  
