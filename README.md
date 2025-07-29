@@ -159,4 +159,4 @@ See `NOTICE.md` for detailed IP and licensing terms.
 ## Community & Contact  
 We welcome constructive collaboration, issue reports, and discussions.  
 
-Contact: **K. Williams at telesis001@icloud.com**  
+Contact: **Keenan Williams at telesis001@icloud.com**  
