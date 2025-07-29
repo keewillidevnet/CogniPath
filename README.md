@@ -13,7 +13,7 @@ Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath dynamically a
 
 ## Release Information
 **Version:** v1.0.0 (Initial Public Release — IP-Safe Edition)  
-See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag/v1.0.0) for details.
+See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag/v0.1.0-public-preview) for details.
 
 ---
 
