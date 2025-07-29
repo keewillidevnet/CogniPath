@@ -74,10 +74,11 @@ CogniPath/
 │   └── __init__.py
 │
 ├── main.py                # Demo entry point
-├── README.md              # (This file)
 ├── requirements.txt
+├── .gitignore		   #
+├── LICENSE.md             # Proprietary License Agreement
 └── NOTICE.md              # IP notice
-└── LICENSE.md             # Proprietary License Agreement
+└── README.md              # (This file)
 ```
 
 ---
