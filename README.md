@@ -12,7 +12,7 @@ Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath dynamically a
 - Compatibility with legacy protocols via a protocol-agnostic interface.  
 
 ## Release Information
-**Version:** v1.0.0 (Initial Public Release — IP-Safe Edition)  
+**Version:** v0.1.0 Initial Public Pre-release (Public Architecture Preview) 
 See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag/v0.1.0-public-preview) for details.
 
 ---
