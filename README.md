@@ -1,2 +1,148 @@
-# CogniPath
-CogniPath – Intent-driven networking framework demonstrating distributed language-model-assisted routing concepts, topology awareness, and legacy protocol interoperability. Public repo contains high-level architecture, example configs, and non-sensitive modules.
+# CogniPath  
+**Intent-Driven Networking Powered by Distributed Language Model Agents**  
+
+---
+
+## Overview  
+CogniPath is a next-generation intent-driven packet networking system that leverages distributed language model (LM) agents to dynamically determine packet routing paths in real time. Instead of static configuration or legacy routing convergence delays, CogniPath embeds **intent** directly in packet metadata, enabling an intelligent, adaptive network that reacts instantly to topology changes, failures, and evolving policy requirements.  
+
+Unlike traditional routing protocols (BGP, OSPF, EIGRP), CogniPath dynamically adapts to the **actual intent** of the packet using on-demand inference, enabling:  
+- Adaptive routing based on live topology and telemetry.  
+- Real-time rerouting around failures or degraded links.  
+- Compatibility with legacy protocols via a protocol-agnostic interface.  
+
+---
+
+## Key Innovations  
+
+### **1️⃣ Decentralization + Packet-Level LM Intent**  
+- Each packet carries embedded intent in its header/payload.  
+- Nodes act as autonomous LM agents interpreting this intent.  
+- Eliminates reliance on a single centralized controller.  
+
+### **2️⃣ Agentic Consensus + Determinism via LM**  
+- Distributed LMs act as decision agents to agree on optimal paths.  
+- Security hardened by token-hashing, UUID replay prevention, and consensus thresholds.  
+- Ensures deterministic decision outcomes in distributed settings.  
+
+### **3️⃣ Control-Plane Intelligence Shift**  
+- Moves decision-making to the **edge control plane**.  
+- Routing decisions are **triggered dynamically** by packets rather than static policies.  
+- Enables continuous optimization as topology evolves.  
+
+---
+
+## Suggested Augmentations (Included in Roadmap)  
+
+- **LM Prompt Adaptation:** Mutates LM inputs dynamically (e.g., excludes failed nodes) based on telemetry.  
+- **LM Response Auditability:** Logs LM decisions in signed, traceable formats (`logs/lm_decisions.log`).  
+- **Protocol-Agnostic Compatibility Layer:** Translates LM-generated paths to legacy protocol equivalents (e.g., OSPF/BGP route injection).  
+
+---
+
+## Repository Structure (Public-Safe Layout)  
+
+```
+CogniPath/
+│
+├── core/                  # Public-safe core architecture
+│   ├── agent.py           # LM orchestration layer (public interface only)
+│   ├── node.py            # Node logic (public-safe abstraction)
+│   ├── packet.py          # Packet structure w/ intent, token handling
+│   ├── tokenlib.py        # Public-safe token validation/rate limiting
+│   └── utils.py
+│
+├── config/
+│   └── lm_roles.yaml      # Roles for CogniCore, CogniEdge, CogniLite
+│
+├── legacy_compat/         # Legacy protocol stubs (no sensitive LM logic)
+│   ├── bgp/parser.py
+│   ├── eigrp/parser.py
+│   ├── ospf/parser.py
+│   └── README.md
+│
+├── docs/
+│   └── README.md          # High-level technical overview
+│
+├── logs/
+│   ├── agent_audit.log
+│   └── lm_decisions.log
+│
+├── tests/
+│   ├── test_agent.py
+│   ├── test_packet.py
+│   └── __init__.py
+│
+├── main.py                # Demo entry point
+├── README.md              # (This file)
+├── requirements.txt
+└── NOTICE.md              # IP notice
+└── LICENSE.md             # Proprietary License Agreement
+```
+
+---
+
+## Intellectual Property & Licensing  
+This public repository contains a **limited, public-safe subset** of CogniPath’s architecture.  
+Core intellectual property (LM internals, consensus algorithms, advanced prompt structures, and production routing logic) is maintained in the **private `CogniPath-core` repository**.  
+
+Patent protection is in process via **USPTO Provisional Patent Application (PPA)** covering:  
+- LM intent-embedded packet networking.  
+- Distributed LM consensus routing.  
+- Edge-triggered control plane inference.  
+
+---
+
+## Installation & Quickstart  
+
+**Clone the repository:**
+```bash
+git clone https://github.com/<your-org>/CogniPath.git
+cd CogniPath
+```
+
+**Create a virtual environment & install dependencies:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+**Run the demo:**
+```bash
+python3 main.py
+```
+
+---
+
+## Legacy Protocol Compatibility  
+CogniPath supports **interoperation with existing networks** by translating LM-decided paths to formats understood by:  
+- OSPF  
+- BGP  
+- EIGRP  
+
+**Note:**  
+Legacy protocol translators in `legacy_compat/` are **public stubs**. Full compatibility modules are maintained in **private protected code**.
+
+---
+
+## License & Notice  
+This public repository is released under a **restricted license**.  
+Use is allowed for educational/research purposes.  
+Production/commercial usage without explicit permission is prohibited.  
+
+See `NOTICE.md` for detailed IP and licensing terms.
+
+---
+
+## Learn More  
+- **Patent Status:** PPA filed (USPTO)  
+- **Private Repo:** CogniPath-core (invite only)  
+- **Public Roadmap:** See [Phase 3 & 4 Roadmap in Issues]  
+
+---
+
+## Community & Contact  
+We welcome constructive collaboration, issue reports, and discussions.  
+
+Contact: **K. Williams at telesis001@icloud.com**  
