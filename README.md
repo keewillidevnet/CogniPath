@@ -43,7 +43,7 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 - Dynamically adapts switching paths based on LM-driven network intent and live health telemetry.  
 
 ### **5️⃣ Wireless-Ready Adaptive Framework**  
-- CogniPath™’s architecture is designed for **wireline and wireless environments**, including LoRaMesh, Wi‑Fi 6, and 5G.  
+- CogniPath’s architecture is designed for **wireline and wireless environments**, including LoRaMesh, Wi‑Fi 6, and 5G.  
 - Intent‑driven routing seamlessly adapts to variable wireless link quality and mobility conditions.  
 - Wireless capability is enabled through the same LM‑driven control plane, ensuring **link resilience and real‑time rerouting** without protocol‑specific dependencies.  
 
@@ -110,7 +110,7 @@ CogniPath/
 ---
 
 ## Intellectual Property & Licensing  
-This public repository contains a **limited, public-safe subset** of CogniPath™’s architecture.  
+This public repository contains a **limited, public-safe subset** of CogniPath’s architecture.  
 Core intellectual property (LM internals, consensus algorithms, advanced prompt structures, and production routing logic) is maintained in the **private `CogniPath-core` repository**.  
 
 Patent protection is in process via **USPTO Provisional Patent Application (PPA)** covering:  
