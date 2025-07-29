@@ -42,6 +42,11 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 - Keeps all links active while preventing loops in real time.  
 - Dynamically adapts switching paths based on LM-driven network intent and live health telemetry.  
 
+### **5️⃣ Wireless-Ready Adaptive Framework**  
+- CogniPath’s architecture is designed for **wireline and wireless environments**, including LoRaMesh, Wi‑Fi 6, and 5G.  
+- Intent‑driven routing seamlessly adapts to variable wireless link quality and mobility conditions.  
+- Wireless capability is enabled through the same LM‑driven control plane, ensuring **link resilience and real‑time rerouting** without protocol‑specific dependencies.  
+
 ---
 
 ## Suggested Augmentations (Included in Roadmap)  
