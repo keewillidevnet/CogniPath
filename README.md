@@ -55,6 +55,10 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 - **LM Response Auditability:** Logs LM decisions in signed, traceable formats (`logs/lm_decisions.log`).  
 - **Protocol-Agnostic Compatibility Layer:** Translates LM-generated paths to legacy protocol equivalents (e.g., OSPF/BGP route injection).  
 - **Adaptive Switching:** Introduces LM-driven loop prevention and multi-path utilization for switching fabrics.  
+- **Enterprise-Grade Switch Integration Demo**
+  - Deployment of CogniPath-core in containerized environments on high-performance enterprise switches (e.g., Arista container-manager, Cisco IOx, Junos OS Evolved, etc.,).
+  - Showcases LM-driven routing operating in parallel with traditional control planes.
+  - Illustrates intent-aware routing capabilities on enterprise hardware without exposing proprietary mechanisms.
 
 ---
 
