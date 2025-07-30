@@ -56,7 +56,7 @@ See the [Release Notes](https://github.com/keewillidevnet/CogniPath/releases/tag
 - **Protocol-Agnostic Compatibility Layer:** Translates LM-generated paths to legacy protocol equivalents (e.g., OSPF/BGP route injection).  
 - **Adaptive Switching:** Introduces LM-driven loop prevention and multi-path utilization for switching fabrics.  
 - **Enterprise-Grade Switch Integration Demo**
-  - Deployment of CogniPath-core in containerized environments (e.g., Arista container-manager, Cisco IOx, Junos OS Evolved, etc.) on high-performance enterprise switches.
+  - Deployment of CogniPath-core in containerized environments (e.g., Arista EOS container-manager, Cisco IOx, Junos OS Evolved, etc.) on high-performance enterprise switches.
   - Showcases LM-driven routing operating in parallel with traditional control planes.
   - Illustrates intent-aware routing capabilities on enterprise hardware without exposing proprietary mechanisms.
 
