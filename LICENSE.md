@@ -1,4 +1,4 @@
-# CogniPath Proprietary License Agreement
+# CogniPath™ Proprietary License Agreement
 
 Copyright (c) 2025 Keenan Williams  
 All Rights Reserved
