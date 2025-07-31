@@ -170,8 +170,30 @@ See `NOTICE.md` for detailed IP and licensing terms.
 ## Learn More  
 - **Patent Status:** PPA filed (USPTO)  
 - **Private Repo:** CogniPath-core (invite only)  
-- **Public Roadmap:** See [Phase 3 & 4 Roadmap in Issues]  
+- **Public Roadmap:**
+  
+## Current Phase Status
+- **Phase 2 (Stable)** – Core LM intent routing complete
+- **Phase 3 (In Development)** – Expanded interoperability, observability, and edge readiness
+- **Phase 4 (Planned)** – Advanced wireless adaptation, security, and enterprise integration
 
+---
+
+## Phase 3: Interoperability, Compliance, and Edge Readiness
+- **Protocol Interoperability** – Ensure compatibility with major routing protocols.
+- **Resilience Enhancements** – Adaptive LM-driven routing that dynamically adjusts to real-time conditions.
+- **Performance Optimizations** – Efficient packet management with enhanced telemetry and dynamic reroute.
+- **Scalable Management** – Configurable policy modules and topology loaders for flexible deployments.
+- **Observability** – Expanded logging, audit trails, and dashboard integration for operational insight.
+
+---
+
+## Phase 4: Advanced Wireless, Security, and Enterprise Integration
+- **Wireless Network Adaptation** – Mobility support across multiple wireless mesh technologies.
+- **Security & Trust** – Strengthened replay protection, multi-agent consensus, and trust-weighted decision layers.
+- **LM Orchestration** – Cooperative operation of different LM sizes for optimal performance.
+- **Enterprise Integration** – Deployment in containerized environments on enterprise-class network hardware.
+ 
 ---
 
 ## Community & Contact  
