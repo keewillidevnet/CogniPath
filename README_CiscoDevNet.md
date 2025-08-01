@@ -1,0 +1,50 @@
+# CogniPath – CiscoDevNet Early Preview
+
+## Overview
+CogniPath is an intent-driven packet networking platform that augments traditional routing with LM-guided path selection.
+
+This early preview demonstrates CogniPath running in a containerized environment on enterprise-class switches, including Cisco Catalyst 9300 (IOx).
+
+⚠️ Note: This is an early preview. Future releases will include advanced features (resilience, policy modules, governance) in alignment with CogniPath’s roadmap.
+
+---
+
+## Quick Start – Catalyst 9300 IOx Deployment (Lab Simulation)
+Lab Target: Cisco Catalyst 9300 running IOx container support.
+
+Step 1: Build Docker Image  
+    docker build -t cognipath-public .
+
+Step 2: Export for IOx Deployment (Run in Catalyst IOx environment, not on developer machine)  
+    ioxclient docker package cognipath-public .  
+    ioxclient docker deploy cognipath-public.tar
+
+Step 3: Configure Topology  
+    cp examples/topology_example.json topology.json
+
+Step 4: Start CogniPath  
+    python main.py --topology topology.json
+
+---
+
+## Example Topology
+examples/topology_example.json
+{
+  "NodeA": ["NodeB", "NodeC"],
+  "NodeB": ["NodeA", "NodeD"],
+  "NodeC": ["NodeA", "NodeD"],
+  "NodeD": ["NodeB", "NodeC"]
+}
+
+---
+
+## Roadmap Highlights
+- Phase 3 (In Development): Resilience enhancements, dynamic policy control, expanded observability
+- Phase 4 (Planned): Advanced wireless mesh adaptation, multi-agent consensus, enterprise switch integration (Catalyst IOx, Arista, Junos)
+
+---
+
+## Resources
+- CiscoDevNet GitHub: https://github.com/CiscoDevNet
+- Cisco Code Exchange: https://developer.cisco.com/codeexchange/
+- Cisco IOx Documentation: https://developer.cisco.com/docs/iox/

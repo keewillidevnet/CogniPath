@@ -1,0 +1,6 @@
+{
+    "NodeA": ["NodeB", "NodeC"],
+    "NodeB": ["NodeA", "NodeD"],
+    "NodeC": ["NodeA", "NodeD"],
+    "NodeD": ["NodeB", "NodeC"]
+  }
