@@ -29,12 +29,15 @@ Step 4: Start CogniPath
 
 ## Example Topology
 examples/topology_example.json
+
+```json
 {
   "NodeA": ["NodeB", "NodeC"],
   "NodeB": ["NodeA", "NodeD"],
   "NodeC": ["NodeA", "NodeD"],
   "NodeD": ["NodeB", "NodeC"]
 }
+```
 
 ---
 
