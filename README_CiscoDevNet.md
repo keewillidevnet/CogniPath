@@ -14,6 +14,24 @@ This early preview demonstrates CogniPath running in a containerized environment
 
 ---
 
+## Use Cases
+
+CogniPath on Cisco Catalyst 9300 (IOx) enables several early-stage demonstration scenarios:
+
+- **Intent-Driven Routing Demo**  
+  Dynamically route packets based on LM-embedded intent fields instead of static routing tables.
+
+- **IOx Container Deployment Simulation**  
+  Deploy CogniPath as a containerized service on Catalyst 9300 in a lab environment, showcasing adaptability to enterprise-class switches.
+
+- **Topology-Aware Path Selection**  
+  Demonstrate LM-guided path adjustments in response to topology changes (e.g., adding/removing neighbor nodes).
+
+- **Multi-Vendor Edge Preparedness**  
+  Show compatibility path toward future support for Arista, Juniper, and other enterprise switch platforms.
+
+---
+
 ## Quick Start – Catalyst 9300 IOx Deployment (Lab Simulation)
 Lab Target: Cisco Catalyst 9300 running IOx container support.
 
