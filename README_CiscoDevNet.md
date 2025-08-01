@@ -1,5 +1,10 @@
 # CogniPath – CiscoDevNet Early Preview
 
+> **Note for Cisco Code Exchange Reviewers**  
+> This branch (`cisco-devnet`) is licensed under the Cisco Sample Code License to meet Cisco Code Exchange submission requirements.  
+> The `main` branch of this repository is licensed under Apache 2.0 to support broader vendor compatibility.  
+> Both branches contain the same sanitized, public-facing demonstration code.
+
 ## Overview
 CogniPath is an intent-driven packet networking platform that augments traditional routing with LM-guided path selection.
 
