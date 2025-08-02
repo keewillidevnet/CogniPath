@@ -1,5 +1,8 @@
 # CogniPath – CiscoDevNet Early Preview
 
+> View this project on Cisco Code Exchange: 
+[CogniPath on Cisco Code Exchange](https://developer.cisco.com/codeexchange/github/repo/keewillidevnet/CogniPath/)
+
 > **Note for Cisco Code Exchange Reviewers**  
 > This branch (`cisco-devnet`) is licensed under the Cisco Sample Code License to meet Cisco Code Exchange submission requirements.  
 > The `main` branch of this repository is licensed under Apache 2.0 to support broader vendor compatibility.  
