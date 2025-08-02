@@ -1,0 +1,19 @@
+name: Basic CI Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - cisco-devnet
+
+jobs:
+  basic-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run placeholder check
+        run: |
+          echo "✅ Basic check passed"
