@@ -77,3 +77,17 @@ examples/topology_example.json
 - CiscoDevNet GitHub: https://github.com/CiscoDevNet
 - Cisco Code Exchange: https://developer.cisco.com/codeexchange/
 - Cisco IOx Documentation: https://developer.cisco.com/docs/iox/
+
+---
+
+## 🔒 Security & Compliance  
+
+CogniPath follows best practices for secure code handling and vulnerability reporting.  
+
+- **Security Policy**: See [SECURITY.md](SECURITY.md) for details on vulnerability disclosure and security contact information.  
+- **Branch Protection**: The `cisco-devnet` branch is protected to prevent direct pushes and enforce pull request reviews.  
+- **CI Checks**: Basic CI validation runs on all pull requests to ensure code integrity before merge.  
+
+For any security-related concerns, please follow the process outlined in the security policy.
+
+---
