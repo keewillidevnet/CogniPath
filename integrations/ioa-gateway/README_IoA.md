@@ -37,10 +37,11 @@ IoA Workflow Servers can query the Agent Directory for CogniPath nodes, establis
 ## File Structure
 ```
 integrations/ioa-gateway/
-├── README_IoA.md              # This document
-├── oasf_metadata.json         # OASF-compliant agent description
-├── acp_stub.py                # Placeholder for ACP-to-CogniPath encapsulation logic
-├── example_topology.json      # Sample CogniPath topology in IoA workflow
+│
+├── README_IoA.md          # IoA Gateway overview and integration guide
+├── oasf_metadata.json     # OASF-compliant agent capability metadata
+├── acp_stub.py            # ACP-to-CogniPath encapsulation logic (stub)
+├── example_topology.json  # Sample CogniPath topology for IoA workflow demo
 ```
 
 ---
