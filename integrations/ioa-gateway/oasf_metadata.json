@@ -1,0 +1,33 @@
+{
+    "agent_id": "cognipath-ioa-gateway-node-01",
+    "schema_version": "1.0",
+    "agent_name": "CogniPath IoA Gateway Node",
+    "description": "LM-driven network fabric gateway bridging AGNTCY IoA ecosystem and CogniPath mesh.",
+    "capabilities": {
+      "routing": {
+        "type": "LM-driven",
+        "features": [
+          "Multi-hop LM path planning",
+          "Replay protection",
+          "Clearance-level enforcement",
+          "Node availability memory"
+        ]
+      },
+      "protocols": {
+        "supported": [
+          "ACP-over-CogniPacket",
+          "OASF directory registration"
+        ]
+      },
+      "security": {
+        "token_validation": true,
+        "clearance_levels": ["public", "restricted", "confidential"],
+        "encryption": "AES-256-GCM"
+      }
+    },
+    "endpoints": {
+      "acp_entry": "tcp://127.0.0.1:5555",
+      "telemetry_feed": "ws://127.0.0.1:8080/telemetry"
+    },
+    "status": "early-preview"
+  }

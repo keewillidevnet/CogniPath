@@ -1,0 +1,64 @@
+{
+    "topology_id": "ioa-gateway-demo-topo-01",
+    "description": "Sample CogniPath IoA Gateway topology demonstrating ACP-over-CogniPacket routing.",
+    "nodes": [
+      {
+        "node_id": "NodeA",
+        "role": "CogniCore",
+        "capabilities": [
+          "LM path planning",
+          "Replay protection",
+          "Clearance enforcement"
+        ],
+        "status": "active"
+      },
+      {
+        "node_id": "NodeB",
+        "role": "CogniEdge",
+        "capabilities": [
+          "Topology awareness",
+          "Prompt mutation",
+          "ACP encapsulation"
+        ],
+        "status": "active"
+      },
+      {
+        "node_id": "NodeC",
+        "role": "CogniLite",
+        "capabilities": [
+          "Low-latency routing",
+          "Compression",
+          "TTL enforcement"
+        ],
+        "status": "active"
+      }
+    ],
+    "links": [
+      {
+        "source": "NodeA",
+        "target": "NodeB",
+        "latency_ms": 5,
+        "status": "up"
+      },
+      {
+        "source": "NodeB",
+        "target": "NodeC",
+        "latency_ms": 3,
+        "status": "up"
+      },
+      {
+        "source": "NodeA",
+        "target": "NodeC",
+        "latency_ms": 8,
+        "status": "up"
+      }
+    ],
+    "routes": [
+      {
+        "source_agent": "AgentAlpha",
+        "destination_agent": "AgentBeta",
+        "preferred_path": ["NodeA", "NodeB", "NodeC"],
+        "protocol": "ACP-over-CogniPacket"
+      }
+    ]
+  }
