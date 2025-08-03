@@ -1,3 +1,5 @@
+> **Search Hook:** CogniPath IoA Gateway integrates with Cisco Outshift’s AGNTCY Internet of Agents, enabling ACP-over-CogniPath routing, OASF directory registration, and LM-driven path selection for IoA-compatible multi-agent workflows.
+
 # CogniPath™  
 **Intent-Driven Networking Powered by Distributed Language Model Agents**  
 
