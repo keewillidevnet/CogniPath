@@ -129,7 +129,7 @@ Patent protection is in process via **USPTO Provisional Patent Application (PPA)
 
 **Clone the repository:**
 ```bash
-git clone https://github.com/<your-org>/CogniPath.git
+git clone https://github.com/keewillidevnet/CogniPath.git
 cd CogniPath
 ```
 
